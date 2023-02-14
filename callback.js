@@ -4,6 +4,7 @@ var searchIndex = (data, callback) => {
       return callback(null, i);
     }
   }
+  /// add test
   return callback(
     "impossible de trouver index element " + data.filter + " du table"
   );
